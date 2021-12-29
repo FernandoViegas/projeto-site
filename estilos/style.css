@@ -4,13 +4,38 @@
 }
 
 body {
-    background-color:rgb(66, 21, 109);
+    background-color:rgb(2, 2, 2);
 }
 
 main {
-    background-color: burlywood;
+    background-color: rgb(51, 30, 2);
     width: 500px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgb(6, 0, 12);
+    box-shadow: 3px 3px 5px rgb(4, 0, 8);
+}
+
+h1 {
+    font-size: 2cm;
+    color:cornsilk;
+}
+
+h2 {
+    font-size: 1.5cm;
+    color: cornsilk;
+}
+
+img.lado {
+    float: right;
+}
+
+a{
+    text-decoration:  none;
+    font-weight: bold;
+    color:cornsilk
+}
+
+a:hover {
+    text-decoration: underline;
+    color:darkgray
 }
